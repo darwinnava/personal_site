@@ -1,9 +1,9 @@
 ---
-title: "Darwin Reynell Nava's job experience"
+title: "Code for my map"
 date: "Updated: May 7th, 2022"
 ---
 
-```{r setup, echo=FALSE}
+```{r setup, eval=FALSE}
 library(leaflet)
 ## Drolanca
 

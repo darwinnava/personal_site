@@ -1,0 +1,29 @@
+---
+
+date: "Updated: May 7th, 2022"
+---
+
+
+### [The Weight Lifting: Are you doing your unilateral dumbbell biceps curl wrong?](https://rpubs.com/darwinnava/unilateral_dumbbell_biceps_curl_execution_quality)
+
+- Machine Learning: An Inference and Prediction Analysis
+
+### [Manual vs automatic car transmission. Which one has better fuel economy?](https://rpubs.com/darwinnava/manual_vs_automatic_car_transmission_which_one_has_better_fuel_economy)
+
+- An Inferential Data Analysis of the Mtcars Data. Regression Models
+
+### [Is there an association between college major category and income?](https://rpubs.com/darwinnava/is_there_an_association_between_college_major_category_and_income)
+
+- An Inferential Data Analysis of the College Data: Linear regression
+
+### [Does vitamin C dose size affect tooth growth in guinea pigs?](https://rpubs.com/darwinnava/Does_vitamin_C_dose_size_affect_tooth_growth_in_guinea_pigs_1)
+
+- An Inferential Data Analysis of the ToothGrowth Data
+
+### [Does the Central Limit Theorem (CLT) apply to Exponential Probability Distributions (EPD)?](https://rpubs.com/darwinnava/Does_the_Central_Limit_Theorem_CLT_apply_to_Exponential_Probability_Distributions_EPD)
+
+- A simulation exercise
+
+### [What are the most dangerous/damaging weather event types in the United States?](https://rpubs.com/darwinnava/damaging_weather_event_types)
+
+- An analysis of the U.S. NOAA storm database

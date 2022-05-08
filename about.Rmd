@@ -1,7 +1,20 @@
 ---
-title: "About Me"
-author: "Darwin Reynell Nava"
-date: "7 de mayo de 2022"
----
 
-Why I am awesome. 
+date: "Updated: May 7th, 2022"
+author: "Darwin Reynell Nava"
+---
+![](darwin.jpg)
+
+
+### **|| Demand & Supply Planner || Data Analyst || Mechanical Engineer || Machine Learning || Business Intelligence || Continuous Improvement || Data Science ||**
+
+I am a leader, with initiative, passionate about my self-development, and with a great goal motivation! 
+
+Engineering, as well as being curious, critical, argumentative and teamworking have been key tools, which have made possible to provide tangible solutions in organizations, even those with a dynamic and changing environment.
+
+I would like to be part of a multidisciplinary team, in an organization that allows professional growth, challenging projects and an excellent work environment. I invite you to connect through [LinkedIn](https://www.linkedin.com/in/darwin-reynell-nava-830532119/?locale=en_US) or write to me, darwinnava.dn@gmail.com / darwinnava@hotmail.com
+
+
+
+
+
