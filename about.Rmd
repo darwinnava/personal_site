@@ -1,12 +1,12 @@
 ---
-
-date: "Updated: May 7th, 2022"
-author: "Darwin Reynell Nava"
+title: "About Me"
+date: "Updated: May 15th, 2022"
 ---
 ![](darwin.jpg)
 
+#### **Darwin Reynell Nava**
 
-### **|| Demand & Supply Planner || Data Analyst || Mechanical Engineer || Machine Learning || Business Intelligence || Continuous Improvement || Data Science ||**
+#### **| Demand & Supply Planner | Data Analyst | Mechanical Engineer | Machine Learning | Business Intelligence | Continuous Improvement | Data Science |**
 
 I am a leader, with initiative, passionate about my self-development, and with a great goal motivation! 
 

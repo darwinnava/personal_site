@@ -11,7 +11,7 @@
 
 
 
-<title>Code for my map</title>
+<title>code for graphics</title>
 
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -252,6 +252,9 @@ $(document).ready(function () {
   <a href="Projects.html">Projects</a>
 </li>
 <li>
+  <a href="achievements.html">Achievements</a>
+</li>
+<li>
   <a href="about.html">About Me</a>
 </li>
 <li>
@@ -269,13 +272,25 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Code for my map</h1>
-<h4 class="date">Updated: May 7th, 2022</h4>
+<h1 class="title toc-ignore">code for graphics</h1>
+<h4 class="date">Updated: May 15th, 2022</h4>
 
 </div>
 
 
-<pre class="r"><code>library(leaflet)
+<p>options(knitr.duplicate.label = &quot;allow&quot;) #</p>
+<pre class="r"><code>#### Code for the plotly graphs
+library(plotly)
+data &lt;- read.delim2(file = &quot;DATA DARWIN.txt&quot;, header = TRUE, sep = &quot;\t&quot;, dec = &quot;,&quot;)
+plot1 &lt;- plot_ly(data, labels=data$COMPANY, values=data$WEIGHT, type = &quot;pie&quot;, title = &#39;Work Experience&#39;, text= data$JOB)
+plot2 &lt;- plot_ly(x=as.Date(data$BEGIN, format=&quot;%d/%m/%Y&quot;), y=as.Date(data$END, format=&quot;%d/%m/%Y&quot;), type = &#39;scatter&#39;, mode = &#39;markers&#39;, text= data$COMPANY, color = data$JOB)
+plot3 &lt;- plot_ly(x=as.Date(data$BEGIN, format=&quot;%d/%m/%Y&quot;), y=as.Date(data$END, format=&quot;%d/%m/%Y&quot;), z= 1:13, type = &#39;funnel&#39;, text= data$JOB, color = data$COMPANY)
+plot1
+plot2
+plot3
+
+#### Code for the leaflet map
+library(leaflet)
 ## Drolanca
 
 drolancaicon &lt;- makeIcon(

@@ -1,9 +1,21 @@
 ---
-title: "Code for my map"
-date: "Updated: May 7th, 2022"
+title: "code for graphics"
+date: "Updated: May 15th, 2022"
 ---
-
+options(knitr.duplicate.label = "allow")
+#
 ```{r setup, eval=FALSE}
+#### Code for the plotly graphs
+library(plotly)
+data <- read.delim2(file = "DATA DARWIN.txt", header = TRUE, sep = "\t", dec = ",")
+plot1 <- plot_ly(data, labels=data$COMPANY, values=data$WEIGHT, type = "pie", title = 'Work Experience', text= data$JOB)
+plot2 <- plot_ly(x=as.Date(data$BEGIN, format="%d/%m/%Y"), y=as.Date(data$END, format="%d/%m/%Y"), type = 'scatter', mode = 'markers', text= data$COMPANY, color = data$JOB)
+plot3 <- plot_ly(x=as.Date(data$BEGIN, format="%d/%m/%Y"), y=as.Date(data$END, format="%d/%m/%Y"), z= 1:13, type = 'funnel', text= data$JOB, color = data$COMPANY)
+plot1
+plot2
+plot3
+
+#### Code for the leaflet map
 library(leaflet)
 ## Drolanca
 

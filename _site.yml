@@ -7,6 +7,8 @@ navbar:
       href: index.html
     - text: "Projects"     ##### the new
       href: Projects.html  ##### stuff
+    - text: "Achievements"     ##### the new
+      href: achievements.html  ##### stuff
     - text: "About Me"
       href: about.html
     - text: "Code"

@@ -1,0 +1,111 @@
+---
+title: "Work achievements"
+date: "Updated: May 15th, 2022"
+output: ioslides_presentation
+---
+
+*** 
+```{r setup, echo=FALSE}
+library(plotly)
+data <- read.delim2(file = "DATA DARWIN.txt", header = TRUE, sep = "\t", dec = ",")
+plot1 <- plot_ly(data, labels=data$COMPANY, values=data$WEIGHT, type = "pie", title = 'Work Experience', text= data$JOB)
+plot2 <- plot_ly(x=as.Date(data$BEGIN, format="%d/%m/%Y"), y=as.Date(data$END, format="%d/%m/%Y"), type = 'scatter', mode = 'markers', text= data$COMPANY, color = data$JOB)
+plot3 <- plot_ly(x=as.Date(data$BEGIN, format="%d/%m/%Y"), y=as.Date(data$END, format="%d/%m/%Y"), type = 'funnel', text= data$JOB, color = data$COMPANY)
+plot1
+```
+
+## Senior Demand Planner in Drolanca
+- Design of prediction models using machine learning algorithms to predict behavior and business patterns for the coming months, using various methods, preprocessing, categorical variables and multiple predictors. Opportunities identification.
+
+- Distribution route optimization based on route compaction, distribution costs, market positioning and sales increase concepts. 
+
+- Abnormal patterns identification in supplier service level. Development of a new purchasing strategy.
+
+- Market analysis to bring in more customers and increase our customer base and identify new providers. Pharmaceutical Market.
+
+*** 
+- Product comparison. Proposal and Visual Basic Macro. Inventory classifier according to the ATC system for medicines and sectioning through categories for miscellaneous (prototype proposal for evaluation and implementation in SAP ). 
+
+- Design of dashboards with inventory management key performance indicators. Expiration, age, projected inventory/future failures, prices, sales, discounts, last purchase, etc. Power BI - Tableau - Power Pivot.
+
+- Improvements of inventory diference, inventory trial balance, inventory age and sales reports processes
+
+- Time optimization of the sales report execution for each supplier through the design of a relational database on "access". It can manage a series of queries and reports (prototype proposal for evaluation and implementation in SAP). A reduction of 82%.
+
+*** 
+
+- Time optimization of the inventory difference report execution. A reduction of 85%.
+
+- Time optimization of the purchase order creation through the design of VBA Macros in Excel. A reduction of 75%.
+
+- Design of tools to analyze competitors.
+
+## Online Sales Coordinator in Cibersys
+- Responsible for managing work plans in multiple projects in order that tasks were assigned and completed on time. Disclosure of project information to all involved. Baseline deviation analysis and defining and collecting statistical-metric information to indicate project progress and acceptable deliveries.
+
+- Translation of web pages, Cibersys and Omnify, company brands.
+
+- Study, selection and implementation of CRM, Bitrix24, for Commercialization management.
+
+- Design of a collection dashboard, which allowed the administration management to be informed and control key points of the collection deparment behavior.
+
+***
+- Customer service and constant monitoring through various channels, Bitrix24 - WS - phone - call - linkedin. Upgrade of data base. Compilation of statistics. Close collaboration with sales staff. Application of various strategies for prospecting. It allowed to improve the average monthly sales.
+
+- Prospecting for the Cibersys associate program. Allies and partners. Internet solutions and cloud solutions.
+
+- Design, implementation and sending of consumption reports for VoIP telephony clients.
+
+***
+```{r, echo=FALSE, comment="", message=FALSE, warning=FALSE}
+plot2
+```
+
+## Inventory Planner in Be&CO
+- Compliance with monthly budgets for both categories, making use of statistical / predictive analysis and optimization strategies in product allocation.
+
+- Design of a tool to evaluate life cycle of a collection according to its price range. The study focused on an analysis of own brands in the Children Category, allowing to establish consumption patterns in each one of them.
+
+- Design of dashboards for both categories, "Children" and "Sports" , to view sales, turnover, coverage and stocks, which allowed informing the purchasing area of the behavior of each category department.
+
+- Prediction dashboard design for the categories "Children" and "Sports" which allowed estimating sales and future inventory failures for a defined period.
+
+***
+
+- Direct collaboration with the distribution center so that requests for the assignment of products from both categories reach each of the stores nationwide on time.
+
+- Direct collaboration with the "Sports Visual Merchandising" and "Children Visual Merchandising" teams analyzing statistical-metric information to indicate whether their product presentation strategies were efficient.
+
+## Researcher in Intevep - Petróleos de Venezuela S.A. 
+- Evaluation of reports regarding operational problems in drilling and bits in wells built in the Orinoco Oil Belt, FPO. It allowed provide recommendations regarding optimal drilling operational parameters and bit selection.
+
+- Technical report regarding design considerations in the completion of thermal wells.
+
+- Technical report regarding design considerations in thermal heads.
+
+- Technical report regarding sand retention tests.
+
+***
+
+- Design and manufacture (3D printing) of static particle disperser, eductor and coupon holder for the sand slurry test cell.
+
+- Design and elaboration of database in Access for the control of test requests, registration of calibration and maintenance works in various laboratories of the expertise.
+
+## Field Supervisor in Vielectre Construcciones Civiles C.A.
+- Junior Supervisor in 8 infrastructure construction projects for fiber optic installation, carrying out the planned work plan. Guarantee quality of materials / construction and safety at work. Technical and progress reports for each project
+
+- Management of work teams made up of up to 10 people.
+
+## Intern in Ford Motor Company
+- Proposal and implementation of a new FRL network, including certification of feeding points and Hose Reel design for routing of air distribution hoses. Case: F350 / Explorer Chassis Line. Allowing to eliminate disergonomic conditions in the work stations and pressure losses that would induce non-compliance of critical and general torques.
+
+- Design and manufacture of tools for the installation of "blockbeam", "cow-face" and "crossbows".
+
+- Design and manufacture of buterolas for riveting machines.
+
+- Certification days of critical and general torques in F-350, Cargo and Explorer models.
+
+***
+```{r, echo=FALSE, comment="", message=FALSE, warning=FALSE}
+plot3
+```

@@ -1,6 +1,6 @@
 ---
-title: "Darwin Reynell Nava's job experience"
-date: "Updated: May 7th, 2022"
+title: "Work Experiences"
+date: "Updated: May 15th, 2022"
 ---
 
 ```{r setup, echo=FALSE}
