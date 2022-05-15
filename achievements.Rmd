@@ -109,3 +109,6 @@ plot2
 ```{r, echo=FALSE, comment="", message=FALSE, warning=FALSE}
 plot3
 ```
+**Thanks!**
+
+[End](https://darwinnava.github.io/personal_site/)
